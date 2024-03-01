@@ -1,14 +1,7 @@
-```@meta
-CurrentModule = blog
-```
+# YourPackage.jl
 
-# blog
-
-Documentation for [blog](https://github.com/natgeo-wong/blog.jl).
-
-```@index
-```
+Documentation for `YourPackage.jl`.
 
 ```@autodocs
-Modules = [blog]
+Modules=[YourPackage]
 ```

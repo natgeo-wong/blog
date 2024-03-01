@@ -1,16 +1,15 @@
-using blog
 using Documenter
-
-DocMeta.setdocmeta!(blog, :DocTestSetup, :(using blog); recursive=true)
+using DocumenterVitepress
 
 makedocs(;
-    modules=[blog],
-    authors="Nathanael Wong <natgeo.wong@outlook.com>",
-    sitename="blog.jl",
-    format=Documenter.HTML(;
-        canonical="https://natgeo-wong.github.io/blog.jl",
-        edit_link="main",
-        assets=String[],
+    warnonly = true,
+    authors  = "Nathanael Wong",
+    repo     = "https://github.com/natgeo-wong/blog",
+    sitename = "Blog",
+    format   = DocumenterVitepress.MarkdownVitepress(
+        repo       = "https://github.com/natgeo-wong/blog.git",
+        devurl     = "dev",
+        deploy_url = "natgeo-wong.github.io/blog",
     ),
     pages=[
         "Home" => "index.md",
@@ -18,6 +17,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/natgeo-wong/blog.jl",
-    devbranch="main",
+    repo         = "github.com/natgeo-wong/blog.git",
+    push_preview = true,
 )

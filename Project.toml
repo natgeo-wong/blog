@@ -1,13 +1,7 @@
 name = "blog"
 uuid = "4f26ec43-e4d6-4788-8d31-02265ed9801e"
 authors = ["Nathanael Wong <natgeo.wong@outlook.com>"]
-version = "1.0.0-DEV"
+version = "1.0.0"
 
 [compat]
 julia = "1"
-
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-[targets]
-test = ["Test"]
