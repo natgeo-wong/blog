@@ -6,6 +6,9 @@ author: Evan You
 gravatar: eca93da2c67aadafe35d477aa8f454b8
 twitter: '@youyuxi'
 ---
+```
+
+# Announcing Vue 3.3
 
 Today we're excited to announce the release of Vue 3.3 "Rurouni Kenshin"!
 
@@ -15,7 +18,6 @@ This post provides an overview of the highlighted features in 3.3. For the full 
 [the full changelog on GitHub](https://github.com/vuejs/core/blob/main/CHANGELOG.md#330-2023-05-08).
 
 ---
-```
 
 :::tip Dependency Updates
 When upgrading to 3.3, it is recommended to also update the following dependencies:
