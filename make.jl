@@ -11,9 +11,10 @@ makedocs(;
         devurl     = ".",
         deploy_url = "natgeo-wong.github.io/blog",
     ),
-    pages=[
+    pages    = [
         "Home" => "index.md",
-        "test1" => "test1.md",
+        "Blog Post Test" => "test1.md",
+        "Ecosystem Test" => "test2.md",
     ],
 )
 

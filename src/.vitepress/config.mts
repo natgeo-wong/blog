@@ -35,7 +35,6 @@ export default defineConfig({
       }
     },
     nav: 'REPLACE_ME_DOCUMENTER_VITEPRESS',
-    editLink: 'REPLACE_ME_DOCUMENTER_VITEPRESS',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/natgeo-wong' },
       { icon: 'twitter', link: 'https://twitter.com/natgeo_wong' },
