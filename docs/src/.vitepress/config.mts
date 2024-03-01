@@ -35,10 +35,11 @@ export default defineConfig({
       }
     },
     nav: 'REPLACE_ME_DOCUMENTER_VITEPRESS',
-    sidebar: 'REPLACE_ME_DOCUMENTER_VITEPRESS',
     editLink: 'REPLACE_ME_DOCUMENTER_VITEPRESS',
     socialLinks: [
-      { icon: 'github', link: 'REPLACE_ME_DOCUMENTER_VITEPRESS' }
+      { icon: 'github', link: 'https://github.com/natgeo-wong' },
+      { icon: 'twitter', link: 'https://twitter.com/natgeo_wong' },
+      { icon: 'gscholar', link: 'https://scholar.google.com/citations?user=-hpOpqIAAAAJ' }
     ],
     footer: {
       message: 'Made with <a href="https://documenter.juliadocs.org/stable/" target="_blank"><strong>Documenter.jl</strong></a> & <a href="https://vitepress.dev" target="_blank"><strong>VitePress</strong></a> <br>',
