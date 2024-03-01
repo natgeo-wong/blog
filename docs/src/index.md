@@ -54,6 +54,8 @@ features:
       
 ```@raw html
 ---
+layout: home
+
 features:
   - icon: <img width="64" height="64" src="https://img.icons8.com/arcade/64/markdown.png" alt="markdown"/>
     title: Markdown
