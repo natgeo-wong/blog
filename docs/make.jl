@@ -7,7 +7,7 @@ makedocs(;
     repo     = "https://github.com/natgeo-wong/blog",
     sitename = "The CliNat Blog",
     format   = DocumenterVitepress.MarkdownVitepress(
-        repo       = "https://github.com/natgeo-wong/blog.git",
+        repo       = "https://github.com/natgeo-wong/blog",
         devurl     = "dev",
         deploy_url = "natgeo-wong.github.io/blog",
     ),
@@ -17,6 +17,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo         = "github.com/natgeo-wong/blog.git",
+    repo         = "github.com/natgeo-wong/blog",
     push_preview = true,
 )
