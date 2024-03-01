@@ -1,4 +1,6 @@
-/docs/Manifest.toml
-/docs/build/
+build/
+node_modules/
+package-lock.json
+Manifest.toml
 */.DS_Store
 .DS_Store

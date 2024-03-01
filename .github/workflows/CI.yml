@@ -25,12 +25,11 @@ jobs:
           version: '1'
       - uses: julia-actions/cache@v1
       - name: Configure doc environment
-        shell: julia --project=docs --color=yes {0}
+        shell: julia --color=yes {0}
         run: |
           using Pkg
-          Pkg.develop(PackageSpec(path=pwd()))
+          Pkg.activate(".")
           Pkg.instantiate()
-      - uses: julia-actions/julia-buildpkg@v1
-      - uses: julia-actions/julia-docdeploy@v1
+      - run: julia --project="." make.jl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
